@@ -1,0 +1,71 @@
+body {
+	font-family: Roboto; 
+	font-size: 20px;
+	letter-spacing: 2px;
+	background-color: #F0F8FF;
+}
+#onlybg {
+	background-image:url("bg.jpg");
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+}
+#onlyBgTwo { 
+	background-image:url("bgDarken.jpg");
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+}
+table {
+	text-align: right;
+	color: black;
+	font-size: 15px;
+	box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+#bgTable { background-color: white; }
+th,td {
+    padding: 10px;
+    text-align: center;
+}
+#tblHeaders { font-size: 20px; font-family: Segoe UI Light; }
+th { color: white; text-align: center; }
+a {float: left;}
+#head{ 
+	background-color:#336666;
+	color: white; 
+	float: right;
+	margin-right: 70px;
+}
+#left { float: left; }
+form {
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    width: 50%;
+    margin-left: 23%
+    z-index: 10;
+    background-color: white;
+    margin-left: 23%;
+}
+h2 {color: white;}
+#bar {
+	width: 50%;
+	margin-left: 23%;
+}
+.labels {
+	font-family: Segoe UI Light;
+	font-size: 15px;
+	color: gray;
+}
+#button {
+	font-family: Segoe UI Light;
+	font-size: 20px;
+	color: white;
+	margin-left: 1%;
+	border-radius: 5px;
+	width: 45%
+}
+#button:hover {
+	color: white;
+	width: 45%
+}
